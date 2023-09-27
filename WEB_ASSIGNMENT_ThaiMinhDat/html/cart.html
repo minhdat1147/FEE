@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/cart.css">
+    <!-- <script src="../js/bootstrap.min.js"></script> -->
+    <title>Cart</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="header row">
+            <div class="headerText col-10">
+                <div class="headerTextMain">cart</div>
+                <div class="headerTextSub">all the selected products in your cart</div>
+            </div>
+        </div>
+        <div class="list-cart">
+            <div class="row button-control">
+                <div class="button-clear"><button type="button"><i class="fa-solid fa-circle-xmark me-2"></i>Clear Cart</button></div>
+                <div class="button-check-out"><button type="button"><i class="fa-sharp fa-solid fa-cart-shopping me-2"></i>check out</button></div>
+            </div>
+            <div class="row list-order row-list-order">
+                <div class="row title-list">
+                    <div class="title-product col-4">product</div>
+                    <div class="title-quantity col-2">quantity</div>
+                    <div class="title-unit-price col-2">unit price</div>
+                    <div class="title-price col-2">price</div>
+                    <div class="title-action col-2">action</div>
+                </div>
+                <div class="row data-list" id="data-row"></div>
+                <div class="row total-list row-list-order">
+                    <div class="col-4"></div>
+                    <div class="col-2"></div>
+                    <div class="col-2 text-capitalize fw-bolder">grand total</div>
+                    <div class="total-price col-2 fw-bolder"></div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+            <div class="row button-shopping">
+                <div class="button-continue">
+                    <a href="/html/index.html">
+                        <button type="button"><i class="fa-solid fa-circle-arrow-left me-2"></i>continue shopping</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/cart.js"></script>
+</body>
+
+</html>

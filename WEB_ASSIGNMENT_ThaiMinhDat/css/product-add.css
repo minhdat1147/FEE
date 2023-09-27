@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: #eee;
+}
+
+.headerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 80px;
+}
+
+.headerTextMain{
+    font-size: 4em;
+}
+
+.headerTextMain::first-letter{
+    text-transform: uppercase;
+}
+
+.headerTextSub{
+    font-size: 1.5em;
+}
+
+.headerTextSub::first-letter{
+    text-transform: uppercase;
+}
+
+.headerButton{
+    width: 100px;
+}
+
+.headerButton > button{
+    width: 100%;
+    height: 30px;
+    background-color: #d9543f;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.section{
+    width: 100%;
+    padding: 20px 80px;
+}
+.sectionTitle{
+    font-size: 2em;
+}
+.sectionTitle::first-letter{
+    text-transform: uppercase;
+}
+
+.sectionForm{
+    width: 100%;
+}
+
+.row-form{
+    margin-top: 15px;
+}
+
+.textLabel{
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.col-data{
+    display: flex;
+    padding-left: 20px;
+}
+
+.col-data > .old, .new, .refurbished{
+    margin-right: 15px;
+}
+
+.col-data > input{
+    width: 350px;
+}
+
+/* .textButtonFile > input[type=file]{
+    color: transparent;
+    width: 120px;
+}
+
+.textButtonFile::after{
+    content: 'không có tiệp nào được chọn';
+    color: black;
+} */
+
+.col-data > button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #428bca;
+    text-transform: capitalize;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
