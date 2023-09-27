@@ -1,0 +1,16 @@
+#weather-app {
+    text-align: center;
+}
+
+.well-no-select {
+    margin: auto;
+}
+
+#subform {
+    width: 40%;
+    height: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

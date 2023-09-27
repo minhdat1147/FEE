@@ -1,0 +1,143 @@
+*{margin: 0;padding: 0;}
+
+.sec1 {
+    background-image: url(../image/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 20%;
+}
+.sec1 .bg-slogan {
+    padding: 150px 0;
+    background-color:rgba(5, 5, 71, 0.301);
+}
+.text {
+    font-size: 25px;
+    line-height: 25px;
+}
+.sign-up {
+    padding: 20px 0 0 0;
+    display: flex;
+}
+.add-email {
+    padding: 0 80px 0 2px;
+    border-radius: 3px;
+    border: none;
+}
+.submit {
+    padding: 0px 20px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.sec2 {
+    background-color: rgb(240, 240, 240);
+}
+
+.sec2 .production2 .pro2 {
+    padding: 7%;
+}
+
+.sec2 .production2 .pro2 .caption2 .info2 {
+    font-size: 13px;
+    color: rgb(136, 133, 133);
+}
+
+.sec3 .title3 {
+    font-size: 25px;
+}
+.sec3 .info3 {
+    font-size: 14px;
+}
+
+.sec4 {
+    background-color: rgb(240, 240, 240);
+}
+.sec4 .question {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.sec4 .production4 .pro4 .avatar {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 2px 4px 5px rgba(119, 119, 119, 0.657), 6px 7px 8px rgba(199, 199, 199, 0.308);
+}
+.sec4 .production4 .pro4 .avatar img {
+    width: 100%;
+    
+}
+.sec4 .production4 .pro4 .information4 {
+    padding: 10px 0;
+}
+.sec4 .production4 .pro4 .information4 b.name {
+    font-size: 20px;
+}
+
+.sec5 {
+    background-image: url(../image/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 20%;
+}
+.sec5 .bg-sign_up {
+    padding: 80px 0;
+    background-color:rgba(5, 5, 71, 0.301);
+}
+
+.footer {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: space-between;
+}
+.footer .left {
+    width: 40%;
+}
+.copyright {
+    color: grey;
+    font-size: 12px;
+    padding: 0 15px;
+}
+.mobile {
+    display: none;
+}
+.normal {display: block;}
+ @media only screen and (max-width: 990px) 
+ {
+    .mobile {display: block;}
+    .normal {display: none;}
+    .wrapper {
+        padding: 60px 0;
+    }
+    .left {
+        text-align: center;
+        width: 200%;
+    }
+    .sign-up {
+        display: block;
+    }
+    .sign-up .add-email {
+        width: 90%;
+        padding: 8px;
+        margin: auto;
+    }
+    .sign-up .submit {
+        width: 90%;
+        margin: auto;
+    }
+    .footer {
+        display: block;
+        width: 100%;
+    }
+    .footer .left {width: 100%;text-align: center;}
+    .footer .left .nav{
+        display: flex;
+        justify-content: center;
+    }
+    .footer .right {
+        display: flex;
+        justify-content: center;
+    }
+ }

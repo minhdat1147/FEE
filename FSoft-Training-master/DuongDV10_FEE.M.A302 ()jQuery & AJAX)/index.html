@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Quote</title>
+  <!-- font-awesome stylesheet for icons -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- bootstrap css stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!-- custom css stylesheet -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <!-- jquery and bootstrap cdn js file -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  
+  
+</head>
+<body>
+  <div class="container">
+    <div class="border p-5 m-5 bg-light">
+      <div class="row">
+        <div class="col-12 col-md-push-3 ">
+          <div class="quote text-left">
+            <h3>
+              <span id="data">Click New Quote button to get a quote.</span>
+            </h3>
+            <div class="pull-left">
+              <p>-author-</p>
+            </div>
+            <!-- Adding twitter button and get new quote button -->
+            <br>
+            <br>
+            <div class="socialmedia pull-left">
+              <a href="#" id="twitter" class="btn btn-primary col" target=_blank>
+                <i class="fa fa-twitter"></i>
+              </a>
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 offset-7">
+          <a href="javascript:;" id="newquote" class="btn btn-primary pull-right col">New Quote</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
